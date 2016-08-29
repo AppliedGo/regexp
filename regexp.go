@@ -89,9 +89,9 @@ func main() {
 	for _, e := range exps {
 		re := regexp.MustCompile(e)
 		fmt.Println(e + ":")
-		fmt.Println("1. FindString %s: ", re.FindString(text))
-		fmt.Println("2. FindStringIndex %s: ", re.FindStringIndex(text))
-		fmt.Println("3. FindStringSubmatch %s: ", re.FindStringSubmatch(text))
+		fmt.Println("1. FindString: ", re.FindString(text))
+		fmt.Println("2. FindStringIndex: ", re.FindStringIndex(text))
+		fmt.Println("3. FindStringSubmatch: ", re.FindStringSubmatch(text))
 		fmt.Printf("4. FindAllString: %v\n", prettyMatches(re.FindAllString(text, -1)))
 		fmt.Printf("5. FindAllStringIndex: %v\n", re.FindAllStringIndex(text, -1))
 		fmt.Printf("6. FindAllStringSubmatch: %v\n\n", prettySubmatches(re.FindAllStringSubmatch(text, -1)))
