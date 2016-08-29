@@ -41,17 +41,6 @@ I'd say the best way is to find out by yourself. For this I made a short video a
 
 The video does not cover Go regexp methods (or only very briefly near the end), so let's examine some useful methods from the `regexp` library here.
 
-To get a bit structure into the `regexp` package, the functions for matching a regular expression pattern can be grouped by looking at the various parts of their names:
-
-* "String": Functions without "String" in their name operate on byte slices, those that have "String" in their name operate on strings.
-* "All": Functions without "All" return a single match (if there is any match at all), those with "All" return all matches.
-* "Index": Functions that end with "...Index" return a slice of two ints that describe the locations of the first and the last character of the match.
-* "Submatch": Functions with "Submatch" in their name must be called on a regular expression that contains groups. These functions then return the full match as well as every matched group (the "submatches").
-
-The `regexp` package contains all sorts of combinations of the above, from a simple `Find()` to monster names like `FindStringSubmatchIndex`. But with the above taxonomy in mind the `regexp` API already feels less overwhelming.
-
-There are more functions in that package, like functions for replacing matches, functions that operate on io.Readers, and other useful utilities, but here we just focus on the "Find" functions to illustrate some of the expressions discussed in the video.
-
 */
 
 // ## Importing the regexp package
@@ -125,6 +114,13 @@ go run regexp.go
 Also available via the Go Playground:
 
 Feel free to experiment with the expressions and see if the outcome is what you expected!
+
+
+### Links from the video
+
+[Go Regexp Syntax Reference](https://golang.org/pkg/regexp/syntax/)
+
+[RegexPlanet](http://www.regexplanet.com/advanced/golang/index.html)
 
 Happy coding!
 */
