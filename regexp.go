@@ -108,7 +108,7 @@ cd $GOPATH/src/github.com/appliedgo/regexp
 go run regexp.go
 ```
 
-Also available [on the Go Playground](https://play.golang.org/p/d2U7bav-As).
+Also available [on the Go Playground](https://play.golang.org/p/yNusC1jDQ3).
 
 Feel free to experiment with the expressions and see if the outcome is what you expected!
 
