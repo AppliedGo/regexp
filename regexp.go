@@ -30,10 +30,7 @@ Regular Expressions are slow, ugly, error-prone, incomprehensible,... Or are the
 
 <!--more-->
 
-Are Regular Expressions all Greek to you? Have you ever asked yourself whether it is worth
-
-
-Regular Expressions seem to divide software developers. Some love them and use them without thinking twice, others frown upon any regexp they spot in someone else's code. Who is right? Is the truth somewhere in the middle, as is so often the case when people take extreme standpoints on a topic?
+Regular Expressions seem to divide software developers. Some love them and use them without thinking twice, some frown upon any regexp they spot in someone else's code. To others, regular expressions are all Greek. Who is right? Is the truth somewhere in the middle, as is so often the case when people take extreme standpoints on a topic?
 
 I'd say the best way is to find out by yourself. For this I made a short video about the basic building blocks of regular expressions. Here we go:
 
