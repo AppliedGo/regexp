@@ -21,9 +21,9 @@ author = "Christoph Berger"
 email = "chris@appliedgo.net"
 date = "2016-08-29"
 publishdate = "2016-08-29"
-domains = ["Text Processing"]
+categories = ["Text Processing"]
 tags = ["regular expression", "regexp", "search", "pattern", "video"]
-categories = ["Tutorial"]
+articletypes = ["Tutorial"]
 +++
 
 Regular Expressions are slow, ugly, error-prone, incomprehensible,... Or are they? Find out by learning regexp basics.
