@@ -83,7 +83,6 @@ But a bit of better butter will make my batter better
 So ‘twas better Betty Botter bought a bit of better butter`
 )
 
-// PrintSlice prints a slice in a more readable way. Standard Println or Printf separate the elements by a space, but our text also contains spaces, so we need something
 // Now try some of the various Find functions.
 func main() {
 	for _, e := range exps {
